@@ -1,11 +1,13 @@
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
-    background-color: #E7E9FC;
     line-height: 1.5;
     letter-spacing: 2%;
+    background-color: #FFFFFF;
 }
-
+a {
+    text-decoration: none;
+}
 ul {
     list-style-type: none;
 }
@@ -17,7 +19,7 @@ ul {
     line-height: 1.16;
     letter-spacing: 3%;
     color: #4D5AE5;
-    text-decoration: none;
+    
 }
 .link-logo .color-logo-1 {
     color: #2E2F42;
@@ -28,7 +30,6 @@ ul {
 .link-nav {
     font-weight: 500;
     color: #2E2F42;
-    text-decoration: none;
 }
 .link-nav:active {
     color: #404BBF;
@@ -36,7 +37,6 @@ ul {
 }
 .link-adress {
     color: #434455;
-    text-decoration: none;
 }
 .link-adress:active {
     color: #404BBF;
@@ -62,4 +62,32 @@ h1 {
 }
 .button:hover {
     background-color: #404BBF;
+}
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2E2F42;
+
+}
+.section-3 {
+    background-color: #F4F4FD;
+}
+.section-3 p {
+    text-align: center;
+}
+.section-3 h3 {
+    text-align: center;
+}
+h2 {
+    font-size: 36px;
+    line-height: 1.1;
+    color: #2E2F42;
+    text-align: center;
+}
+footer {
+    background-color: #2E2F42;
+}
+footer p {
+    color: #F4F4FD;
 }
