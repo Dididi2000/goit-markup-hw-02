@@ -70,7 +70,9 @@ h1 {
     cursor: pointer;
     border: none;
 }
-.button:hover {
+.button:hover,
+.button:focus
+ {
     background-color: var(--color-interactive);
 }
 h3 {
