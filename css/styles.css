@@ -10,7 +10,7 @@ body {
     font-family: "Roboto", sans-serif;
     color: var(--color-body);
     line-height: 1.5;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     background-color: var(--color-accent);
 }
 a {
@@ -19,13 +19,28 @@ a {
 ul {
     list-style-type: none;
 }
+
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--color-main);
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 1.11;
+    color: var(--color-main);
+    text-align: center;
+}
+
 .link-logo {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
-    line-height: 1.16;
-    letter-spacing: 3%;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     color: #4D5AE5;
     
 }
@@ -39,21 +54,30 @@ ul {
     font-weight: 500;
     color: var(--color-main);
 }
-.link-nav:active {
+.link-nav:focus,
+.link-nav:hover
+{
     color: var(--color-interactive);
-    text-decoration: underline;
+ 
 }
-.link-adress {
+
+.address {
+    font-style: normal;
+}
+.link-address {
     color: var(--color-body);
 }
-.link-adress:active {
+
+.link-address:focus,
+.link-address:hover
+{
     color: var(--color-interactive);
     
 }
 .main-page-section {
     background-color: var(--color-main);
 }
-h1 {
+.first-title{
     font-size: 56px;
     text-align: center;
     line-height: 1.07;
@@ -62,26 +86,21 @@ h1 {
 }
 .button {
     font-weight: 500;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
     color: var(--color-accent);
     background-color: #4D5AE5;
     text-shadow: 0px 4px 4px #00000026;
     text-align: center;
     cursor: pointer;
     border: none;
+    line-height: 1.5;
 }
 .button:hover,
 .button:focus
  {
     background-color: var(--color-interactive);
 }
-h3 {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    color: var(--color-main);
 
-}
 .our-team-section {
     background-color: #F4F4FD;
 }
@@ -91,15 +110,16 @@ h3 {
     text-align: center;
 }
 
-h2 {
-    font-size: 36px;
-    line-height: 1.1;
-    color: var(--color-main);
-    text-align: center;
+.team-title{
+    text-transform: capitalize;
 }
-footer {
+.team-list{
+    background-color: #fff;
+}
+
+.end {
     background-color: var(--color-main);
 }
-footer p {
+.increase {
     color: var(--color-second);
 }
