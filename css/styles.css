@@ -25,6 +25,7 @@ h3 {
     font-size: 20px;
     line-height: 1.2;
     color: var(--color-main);
+    letter-spacing: 0.02em;
 }
 
 h2 {
@@ -32,6 +33,7 @@ h2 {
     line-height: 1.11;
     color: var(--color-main);
     text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .link-logo {
@@ -82,6 +84,7 @@ h2 {
     text-align: center;
     line-height: 1.07;
     color: var(--color-accent);
+    letter-spacing: 0.02em;
 
 }
 .button {
